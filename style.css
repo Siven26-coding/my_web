@@ -1,0 +1,295 @@
+    /* ===== Reset and Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #0f0f10;
+  margin: 0 15vw;
+  border: 5px solid #00f0ff;
+  box-shadow: 0 0 20px #00f0ff;
+  animation: glowBorder 3s infinite alternate;
+  border-radius: 10px;
+}
+
+@keyframes glowBorder {
+  0% {
+    box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+  }
+  100% {
+    box-shadow: 0 0 20px #00f0ff, 0 0 40px #00f0ff;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ===== Navbar ===== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.links ul {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav_button {
+  padding: 6px 25px;
+  border-radius: 5px;
+  background-color: #151414;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== Hero Section ===== */
+.hero_main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.img_hero1 {
+  height: 400px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.let_section {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.let_section img {
+  margin-bottom: 20px;
+}
+
+.let_section h1 {
+  font-size: 3rem;
+}
+
+.let_section p {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.shoping_bag {
+  margin-top: 30px;
+}
+
+.shoping_bag button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #212123;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ===== Social Media Icons ===== */
+.socail_media_icon {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+/* ===== Specs Section ===== */
+.case1 {
+  margin-top: 60px;
+}
+
+.specs_logo {
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.main_product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info {
+  max-width: 300px;
+}
+
+.info div {
+  margin-bottom: 20px;
+}
+
+.info span {
+  font-weight: bold;
+  display: block;
+}
+
+/* ===== Case Section ===== */
+.case2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.case2 .right {
+  max-width: 300px;
+}
+
+.case2 button {
+  margin-top: 20px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: #212123;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* ===== Buy Now Section ===== */
+.one_big_broduct {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212123;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.contant button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #0f0f10;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== Product Info ===== */
+.product_info {
+  margin-top: 60px;
+}
+
+.product_sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading_logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 60px;
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+.footer_button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_button button {
+  background-color: #212123;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_socail_icon {
+  display: flex;
+  gap: 15px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  body {
+    margin: 0 5vw;
+  }
+
+  .hero_main,
+  .one_big_broduct,
+  .case2 {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .socail_media_icon {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

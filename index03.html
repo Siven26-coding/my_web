@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beats Headphones</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav>
+    <div class="logo">
+      <img src="beatsLogo.png" alt="logo">
+    </div>
+    <div class="links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Space</a></li>
+        <li><a href="#">Case</a></li>
+        <li><a href="#">Product</a></li>
+        <button class="nav_button">Shop</button>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero_main">
+    <img src="mainImage.png" alt="headphone" class="img_hero1" onclick="playSound()" />
+    <audio id="beatAudio" src="Saiyaara(KoshalWorld.Com).mp3"></audio>
+
+    <div class="let_section">
+      <img src="onEar.png" alt="on ear logo" height="70" />
+      <h1>Beats 3</h1>
+      <h4>Overview</h4>
+      <p>
+        Enjoy award-winning Beats sound with wireless listening freedom and a
+        sleek, streamlined design with comfortable padded earphones,
+        delivering first-rate playback.
+      </p>
+      <div class="shoping_bag">
+        <button><img src="shoppingBag.png" alt="">Add to Bag – N399K</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Social Media Icons ===== -->
+  <section class="socail_media_icon">
+    <img src="appleLogo.png" alt="Apple" />
+    <img src="spotifyLogo.png" alt="Spotify" />
+    <img src="amazonLogo.png" alt="Amazon" />
+    <img src="youtubeLogo.png" alt="YouTube" />
+  </section>
+
+  <!-- ===== Specs Section ===== -->
+  <section class="case1">
+    <img src="specsLogo.png" alt="Specs Logo" class="specs_logo" />
+    <div class="main_product">
+      <div class="info">
+        <div>
+          <img src="bluetooth.png" alt="">
+          <p><span>Connection</span>Bluetooth</p>
+        </div>
+        <div>
+          <img src="mic.png" alt="">
+          <p><span>Microphone</span>Supports Apple, Siri, and Google</p>
+        </div>
+        <div>
+          <img src="battery.png" alt="">
+          <p><span>Battery</span>Duration 40h</p>
+        </div>
+        <div>
+          <img src="charger.png" alt="">
+          <p><span>Charger</span>Fast Charge 42-AAC</p>
+        </div>
+      </div>
+      <img src="specsImage.png" alt="Specs Image" height="400px" />
+    </div>
+  </section>
+
+  <!-- ===== Case Section ===== -->
+  <section class="case2">
+    <div class="sace">
+      <img src="caseLogo.png" alt="Case Logo">
+    </div>
+    <div class="right">
+      <p>
+        With a comfortable and adaptable case so that you can store it whenever you want, and keep your durability forever.
+      </p>
+      <button><img src="group.png" alt="" class="group">More Info</button>
+    </div>
+    <img src="caseImage.png" alt="" class="caswimage">
+  </section>
+
+  <!-- ===== Buy Now Section ===== -->
+  <section class="one_big_broduct">
+    <div class="contant">
+      <h2>Immerse Yourself In Your Music</h2>
+      <p>Buy Now, up to 40% off.</p>
+      <button><img src="shoppingBag.png" alt="">Buy Now</button>
+    </div>
+    <img src="buyNowSectionImage.png" alt="Buy Now" class="sopping" />
+  </section>
+
+  <!-- ===== Product Display Section ===== -->
+  <section class="product_info">
+    <div class="heading_logo">
+      <img src="productLogo (1).png" alt="Product Logo" height="200px">
+    </div>
+    <div class="product_sec">
+      <div class="product"><img src="blue.png" alt=""></div>
+      <div class="product"><img src="black.png" alt=""></div>
+      <div class="product"><img src="nightBlack.png" alt=""></div>
+      <div class="product"><img src="redBlack.png" alt=""></div>
+      <div class="product"><img src="twilightGray.png" alt=""></div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="footer_img"><img src="beatsLogo.png" alt="Footer Logo" /></div>
+    <div class="products">
+      <ul>
+        <h2>Products</h2>
+        <li>Headphones</li>
+        <li>Earphones</li>
+        <li>Earbuds</li>
+        <li>Accessories</li>
+      </ul>
+    </div>
+    <div class="support">
+      <ul>
+        <h2>Support</h2>
+        <li>Product Help</li>
+        <li>Register</li>
+        <li>Updates</li>
+        <li>Privacy</li>
+      </ul>
+    </div>
+    <div class="footer_button">
+      <label for="email">Email</label>
+      <button><img src="rightArrow.png" alt="arrow">Subscribe</button>
+    </div>
+    <div class="footer_socail_icon">
+      <img src="facebook.png" alt="" height="40">
+      <img src="twitter.png" alt="" height="40">
+      <img src="instagram.png" alt="" height="40">
+      <img src="linkedin.png" alt="" height="40">
+    </div>
+  </footer>
+
+  <!-- ===== JavaScript ===== -->
+  <script>
+    function playSound() {
+      const audio = document.getElementById("beatAudio");
+      audio.play();
+    }
+  </script>
+
+</body>
+</html>
