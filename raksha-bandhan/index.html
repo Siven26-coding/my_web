@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Celebrate Raksha Bandhan with love, gifts, and beautiful rakhis. A modern, festive website honoring the bond between siblings." />
+    <title>Raksha Bandhan — A Bond of Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="logo" aria-label="Raksha Bandhan home">
+          <img src="assets/svg/rakhi.svg" alt="Rakhi logo" width="36" height="36" />
+          <span>Raksha Bandhan</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Raksha Bandhan</a></li>
+            <li><a href="#gallery">Rakhi Gallery</a></li>
+            <li><a href="#gifts">Gift Ideas</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="hero">
+      <canvas id="festive-canvas" aria-hidden="true"></canvas>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="slideshow" aria-label="Raksha Bandhan moments" role="region">
+          <div class="slides">
+            <figure class="slide is-active">
+              <img src="https://images.unsplash.com/photo-1520975960015-4fbb9c3f08b3?q=80&w=1600&auto=format&fit=crop" alt="Sister tying rakhi on brother's wrist" />
+              <figcaption>Celebrating the unbreakable bond</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="https://images.unsplash.com/photo-1600087626034-542f6244a6de?q=80&w=1600&auto=format&fit=crop" alt="Exchanging gifts with smiles" />
+              <figcaption>Gifts wrapped with love</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="https://images.unsplash.com/photo-1629080254832-2ba19e743ca3?q=80&w=1600&auto=format&fit=crop" alt="Traditional sweets for the festival" />
+              <figcaption>Sweeten the celebration</figcaption>
+            </figure>
+          </div>
+          <button class="slide-control prev" aria-label="Previous slide">&#10094;</button>
+          <button class="slide-control next" aria-label="Next slide">&#10095;</button>
+          <div class="slide-dots" role="tablist" aria-label="Slideshow navigation"></div>
+        </div>
+
+        <div class="welcome copy-reveal">
+          <h1>Raksha Bandhan</h1>
+          <p>Wrapped in threads of saffron, gold, and love — a promise of protection, a celebration of togetherness. May every rakhi tie hearts closer and light the path with joy.</p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#gifts">Explore Gifts</a>
+            <a class="btn btn-outline" href="#about">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="about" class="section section-light pattern-bg">
+      <div class="container grid two-col">
+        <div class="col copy-reveal">
+          <h2>About Raksha Bandhan</h2>
+          <p>Raksha Bandhan is a vibrant Indian festival that honors the cherished bond between siblings. Sisters tie a sacred thread — the rakhi — on their brothers’ wrists, symbolizing love and protection. In return, brothers offer gifts and a vow to stand by their sisters through all of life’s journeys.</p>
+          <p>Across homes, sweets are shared, diyas glow warmly, and families come together. The spirit of the day is anchored in gratitude, care, and lifelong friendship.</p>
+        </div>
+        <div class="col visual-stack copy-reveal">
+          <img class="float deco" src="assets/svg/diya.svg" alt="Glowing diya" />
+          <img class="float" src="assets/svg/flower.svg" alt="Marigold flower" />
+          <img class="float" src="assets/svg/rakhi.svg" alt="Rakhi" />
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="copy-reveal">Rakhi Gallery</h2>
+        <div class="masonry gallery copy-reveal">
+          <figure><img src="https://images.unsplash.com/photo-1627663312978-b1a2b3a7c33f?q=80&w=1200&auto=format&fit=crop" alt="Designer rakhi with beads" /><figcaption>Designer Rakhi</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1629080254859-cc3fbf30e7f7?q=80&w=1200&auto=format&fit=crop" alt="Traditional thali with kumkum and sweets" /><figcaption>Traditional Thali</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1597413544020-6f91f563555d?q=80&w=1200&auto=format&fit=crop" alt="Colorful rakhi patterns" /><figcaption>Colorful Patterns</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1627579437708-805720f02c59?q=80&w=1200&auto=format&fit=crop" alt="Sweets and treats" /><figcaption>Festive Sweets</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1568251225155-863cf57b6a59?q=80&w=1200&auto=format&fit=crop" alt="Gift boxes wrapped for Rakhi" /><figcaption>Gift Boxes</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="gifts" class="section section-light pattern-bg">
+      <div class="container">
+        <h2 class="copy-reveal">Gift Ideas</h2>
+        <div class="cards copy-reveal">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1200&auto=format&fit=crop" alt="Custom bracelet" />
+            <div class="card-body">
+              <h3>Personalized Jewelry</h3>
+              <p>Engraved bracelets, pendants, and charms that stay close to the heart.</p>
+              <a class="btn btn-link" href="#shop">Shop now →</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1549237511-6ec6fb90fd3f?q=80&w=1200&auto=format&fit=crop" alt="Sweet box assortment" />
+            <div class="card-body">
+              <h3>Artisanal Sweets</h3>
+              <p>From classic laddoos to fusion treats — a box of joy for every sibling.</p>
+              <a class="btn btn-link" href="#shop">Explore →</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1585386959984-a41552231671?q=80&w=1200&auto=format&fit=crop" alt="Gift hamper" />
+            <div class="card-body">
+              <h3>Curated Hampers</h3>
+              <p>Thoughtfully assembled hampers with snacks, candles, teas, and keepsakes.</p>
+              <a class="btn btn-link" href="#shop">Discover →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="container">
+        <h2 class="copy-reveal">Shop</h2>
+        <p class="lead copy-reveal">Browse our festive collection of rakhis, thalis, sweets, and gifts. Secure checkout and worldwide shipping.</p>
+        <div class="product-grid copy-reveal">
+          <article class="product">
+            <img src="assets/svg/rakhi.svg" alt="Handmade Rakhi" />
+            <h3>Handmade Rakhi</h3>
+            <p class="price">$6.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </article>
+          <article class="product">
+            <img src="assets/svg/diya.svg" alt="Decorative Diya Set" />
+            <h3>Decorative Diya Set</h3>
+            <p class="price">$14.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </article>
+          <article class="product">
+            <img src="assets/svg/flower.svg" alt="Marigold Garland" />
+            <h3>Marigold Garland</h3>
+            <p class="price">$9.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-light pattern-bg">
+      <div class="container">
+        <h2 class="copy-reveal">Contact</h2>
+        <div class="grid two-col contact-wrap copy-reveal">
+          <form class="contact-form" netlify>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <p class="lead">We would love to hear from you! Send us a message for custom orders, bulk gifting, or festival queries.</p>
+            <ul class="social">
+              <li><a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a></li>
+              <li><a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a></li>
+              <li><a href="https://x.com" aria-label="X (Twitter)" target="_blank" rel="noopener">X</a></li>
+            </ul>
+            <p>Email: <a href="mailto:hello@rakhi.fest">hello@rakhi.fest</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="greeting">May this Raksha Bandhan fill your life with prosperity, joy, and everlasting togetherness.</div>
+        <div class="footer-meta">
+          <span>© <span id="year"></span> Raksha Bandhan</span>
+          <span class="dot">•</span>
+          <a href="#home" class="back-to-top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
